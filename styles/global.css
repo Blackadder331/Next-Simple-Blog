@@ -6,6 +6,8 @@ body {
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  background-color: #1c1c1c;
+  color: #f1f1f1;
 }
 
 * {
@@ -13,7 +15,7 @@ body {
 }
 
 a {
-  color: red;
+  color: #2ff2d8;
   text-decoration: none;
 }
 
@@ -24,21 +26,6 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
-}
-
-h1,
-h2,
-p,
-ul {
-  margin: 0;
-}
-
-ul {
-  padding: 0;
-  list-style: none;
-}
-
-button {
-  padding: 0.5rem 1rem;
-  font-weight: bold;
+  object-fit: cover;
+  object-position: right;
 }
