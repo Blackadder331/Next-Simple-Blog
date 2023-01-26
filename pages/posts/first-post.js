@@ -2,6 +2,8 @@ import Link from "next/link";
 import Head from "next/head";
 // import Script from "next/script";
 import Layout from "../../components/layout";
+import utilStyles from '../../styles/utils.module.css';
+
 
 export default function FirstPost() {
     return (
@@ -18,7 +20,7 @@ export default function FirstPost() {
                     console.log(`script loaded correctly, window.FB has been populated`)
                 }
             /> */}
-            <h1>ChatGPT Stole my Girlfriend!</h1>
+            <h1 className={utilStyles.heading2Xl}>ChatGPT Stole my Girlfriend!</h1>
             <p><i>You won't believe what happens next!</i></p>
             <hr />
             <br></br>

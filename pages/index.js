@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
         <title>Newbie News Network</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello there! Ich bin <i>Blackadder</i>. I like websites, acid house, and foggy Scottish fishing hamlets by the beach.</p>
+        <p>Hello there! Ich bin <i>Blackadder</i>. I like the internet, acid house, and foggy Scottish fishing hamlets by the beach.</p>
         <p>
           Follow my work at{' '}
           <a href="https://sharp.studio">sharp.studio</a>.
